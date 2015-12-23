@@ -1,0 +1,27 @@
+@font-face {
+	font-family: "RobotB";
+	src: url("Roboto-Bold.woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "RobotM";
+	src: url("Roboto-Medium.woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "RobotR";
+	src: url("Roboto-Regular.woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "RoundB";
+	src: url("RoundsBlack.woff");
+	font-weight: normal;
+	font-style: normal;
+}

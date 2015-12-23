@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Главная</title>
+	<link rel="stylesheet" href="./css/style.min.css">
+	<script type="text/javascript"  src="js/SoftJS.js"></script>
+	<script type="text/javascript"  src="js/Slider.js"></script>
+</head>
+<body>
+	<div class="header">
+		<div class="cont">
+			<div class="menu">
+				<ul>
+					<li><a href="">Главная</a></li>
+					<li><a href="">Новости</a></li>
+					<li><a href="">Афиша</a></li>
+					<li><a href="">Коллективы</a></li>
+					<li><a href="">фото/видео</a></li>
+					<li><a href="">услуги</a></li>
+					<li><a href="">Вакансии</a></li>
+					<li><a href="">Гостевая</a></li>
+					<li><a href="">О нас</a></li>
+					<li><a href="">Документы</a></li>
+				</ul>
+			</div>
+			<div class="logo"></div>
+		</div>
+	</div>
+	<div class="content">
+		<div class="cont">
+			<div class="sliderBlock">
+				<h3>Афиша</h3>
+				<div class="sf-slider">
+					<div class="sf-slider-slides">
+						<div class="slide" style="background-image:url(slide/test.jpg)"></div>
+						<div class="slide" style="background-image:url(slide/test2.jpg)"></div>
+						<div class="slide" style="background-image:url(slide/test3.jpg)"></div>
+						<div class="slide" style="background-image:url(slide/test4.jpg)"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

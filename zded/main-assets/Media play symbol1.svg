@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="17" height="19" viewBox="0 0 17 19">
+  <defs>
+    <style>
+
+      .cls-2 {
+        stroke: #0a3436;
+        stroke-width: 2px;
+        filter: url(#drop-shadow-1);
+        fill: none;
+      }
+    </style>
+
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset in="SourceAlpha" dx="-0.914" dy="0.407"/>
+      <feGaussianBlur result="dropShadow" stdDeviation="1.414"/>
+      <feFlood flood-color="#ffffff" flood-opacity="0.35"/>
+      <feComposite operator="in" in2="dropShadow"/>
+      <feComposite in="SourceGraphic" result="dropShadow"/>
+    </filter>
+  </defs>
+  <g id="media-play-symbol1svg" style="fill: none; filter: url(#drop-shadow-1);">
+    <path d="M4.788,4.585 C4.876,4.539 4.975,4.516 5.075,4.516 C5.174,4.516 5.273,4.539 5.362,4.585 C5.362,4.585 12.212,9.052 12.212,9.052 C12.390,9.144 12.500,9.314 12.500,9.498 C12.500,9.682 12.390,9.853 12.212,9.945 C12.212,9.945 5.362,14.411 5.362,14.411 C5.184,14.503 4.965,14.503 4.788,14.411 C4.610,14.319 4.500,14.149 4.500,13.965 C4.500,13.965 4.500,5.032 4.500,5.032 C4.500,4.847 4.610,4.677 4.788,4.585 Z" id="path-1" class="cls-2" style="stroke: inherit; filter: none; fill: inherit;" fill-rule="evenodd"/>
+  </g>
+  <use xlink:href="#path-1" style="stroke: #0a3436; fill: none; filter: none;"/>
+</svg>
