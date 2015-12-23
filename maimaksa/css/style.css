@@ -97,7 +97,7 @@ body{
 	max-width:100%;
 }
 
-.content h2{
+.content h1{
 	font-size:25px;
 	margin-bottom:10px;
 	color:#4e4e4e;
@@ -116,7 +116,13 @@ body{
 	padding-bottom:100px;
 }
 
-.content>.cont h3{
+.content p{
+	font-size:15px;
+	color:#606060;
+	text-align:left;
+}
+
+.content>.cont h2{
 	font-size:18px;
 }
 
@@ -133,7 +139,7 @@ body{
 .content>.cont .sliderBlock{
 	text-align:right;
 }
-.content>.cont .sliderBlock h3{
+.content>.cont .sliderBlock h2{
 	font-size:18px;
 	font-family:'Roboto';
 	font-weight:bold;
@@ -185,11 +191,11 @@ body{
 .newsEl>a{
 	text-decoration:none;
 }
-.newsEl>a>h3{
+.newsEl>a>h2{
 	color:#86bbed!important;
 	text-transform:uppercase;
 }
-.newsEl>h3{
+.newsEl>h2{
 color:#86bbed!important;
 text-transform:uppercase;
 }
@@ -199,7 +205,7 @@ text-transform:uppercase;
 	float:left;
 	margin-right:20px;
 }
-.newsEl>h3{
+.newsEl>h2{
 	padding-top:10px;
 	text-align:left;
 	color:#000;
