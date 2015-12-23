@@ -182,9 +182,16 @@ body{
 	width:100%;
 	height:200px;
 }
-.newsEl>h3{
+.newsEl>a{
+	text-decoration:none;
+}
+.newsEl>a>h3{
 	color:#86bbed!important;
 	text-transform:uppercase;
+}
+.newsEl>h3{
+color:#86bbed!important;
+text-transform:uppercase;
 }
 .newsEl>img{
 	width:250px;
