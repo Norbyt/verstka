@@ -200,7 +200,8 @@ color:#86bbed!important;
 text-transform:uppercase;
 }
 .newsEl>img{
-	width:250px;
+	object-fit:contain;
+	width:200px;
 	height:100%;
 	float:left;
 	margin-right:20px;
