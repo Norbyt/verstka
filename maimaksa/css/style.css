@@ -150,6 +150,10 @@ body{
 	height:300px;
 }
 
+.sf-slider p{
+	color:#fff;
+}
+
 .sf-slider-slides{
 	width:100%;
 	height:300px;
@@ -237,7 +241,7 @@ text-transform:uppercase;
 	/*width:99.5%;*/
 	margin:20px 0px 5px 0px;
 	background:#767676;
-	margin-left:40%;
+	margin-left:32%;
 	height:2px;
 }
 .newsEl>.newsDate{
