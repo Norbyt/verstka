@@ -1,0 +1,1 @@
+/usr/home/Alex/.nvim/one-dark.vim/colors/onedark.vim
