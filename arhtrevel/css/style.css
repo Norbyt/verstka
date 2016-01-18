@@ -18,6 +18,11 @@
 	width:100%;
 }
 
+.main_area>a{
+	color:#4c4c4c;
+	text-decoration:none;
+}
+
 /*Header*/
 .header{
 	width:100%;
@@ -81,22 +86,22 @@
 /*	display:inline-block;*/
 }
 
-.main_block>.left>.left_menu{
+.main_block>.left>ul{
 	margin-left:20px;
 	margin-top:20px;
 	margin-right:80px;
 }
 
-.main_block>.left>ul.left_menu{
+.main_block>.left>ul{
 	list-style-type:none;
 }
 
-.main_block>.left>ul.left_menu>li{
+.main_block>.left>ul>li{
 	padding:10px 0px 10px 0px;
 	font-family:RobotoB;
 }
 
-.main_block>.left>ul.left_menu>li>a{
+.main_block>.left>ul>li>a{
 	font-family:RobotoB;
 	font-size:14px;
 	font-weight:bold;
@@ -106,18 +111,18 @@
 	margin: 10px 0px 0px 0px;
 }
 
-.main_block>.left>ul.left_menu>li>ul{
+.main_block>.left>ul>li>ul{
 	list-style-type:none;
 }
 
-.main_block>.left>ul.left_menu>li>ul>li{
+.main_block>.left>ul>li>ul>li{
 	margin-left:10px;
 	padding:5px 0px 5px 0px;
 	font-family:RobotoR;
 
 }
 
-.main_block>.left>ul.left_menu>li>ul>li>a{
+.main_block>.left>ul>li>ul>li>a{
 	font-size:12px;
 	color:#fff;
 	text-decoration:none;
@@ -143,12 +148,12 @@
 }
 
 /*Right Menu*/
-.main_block>.right>.right_block>ul.right_menu{
+.main_block>.right>.right_block>ul{
 	list-style-type:none;
 	margin-top:20px;
 }
 
-.main_block>.right>.right_block>ul.right_menu>li{
+.main_block>.right>.right_block>ul>li{
 	display:inline-block;
 	background-color:#fff;
 	color:#5b8ead;
@@ -161,12 +166,12 @@
 	margin-right:15px;
 }
 
-.main_block>.right>.right_block>ul.right_menu>li:hover{
+.main_block>.right>.right_block>ul>li:hover{
 	background-color:#5b8ead;
 	color:#fff;
 }
 
-.main_block>.right>.right_block>ul.right_menu>li>a{
+.main_block>.right>.right_block>ul>li>a{
 	text-decoration:none;
 	text-transform:uppercase;
 	font-weight:bold;
@@ -195,7 +200,7 @@
 	height:200px;
 }
 
-.content>.content_ins h2{
+.content>.content_ins h2,h1{
 	line-height:80px;
 	font-size:24px;
 	color:#505050;
@@ -218,18 +223,11 @@
 	font-size:18px;
 }
 
-.content>.content_ins>.content_text>.content_img{
-	display:flex;
-	flex-direction:row;
-	flex-wrap:wrap;
-	justify-content:space-between;
-	margin-left:20px;
-}
-
-.content>.content_ins>.content_text>.content_img>.img_row{
+.content_text>img{
 	background-repeat:no-repeat;
 	width:24%;
 	height:180px;
+	margin-left:6px;
 	background-size:contain;
 }
 
